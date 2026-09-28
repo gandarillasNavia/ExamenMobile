@@ -19,10 +19,12 @@ import org.jetbrains.compose.resources.painterResource
 import examen.shared.generated.resources.Res
 import examen.shared.generated.resources.compose_multiplatform
 import examen.moviles.project.catalog.presentation.screen.CatalogScreen
+import examen.moviles.project.earthquake.presentation.screen.EarthquakeScreen
+
 @Composable
 @Preview
 fun App() {
     MaterialTheme {
-        CatalogScreen()
+        EarthquakeScreen()
     }
 }
